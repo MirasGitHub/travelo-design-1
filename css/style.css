@@ -1,0 +1,141 @@
+/* ===== Header ===== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--color-text);
+}
+
+.logo img{
+    transform: rotate(-90deg);
+}
+
+.nav-list {
+    display: flex;
+    gap: 36px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-actions .btn {
+    font-size: 15px;
+}
+
+.btn-book {
+    padding: 12px 26px;
+}
+
+/* ===== Hero ===== */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 56px 40px;
+}
+
+.hero-banner {
+    flex-shrink: 0;
+}
+
+.hero-banner img {
+    width: 480px;
+    border-radius: 200px 200px 24px 24px;
+}
+
+.hero-content h1 {
+    margin-top: 24px;
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.hero-content p {
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: 32px;
+}
+
+.hero-actions .btn {
+    font-size: 16px;
+    gap: 10px;
+}
+
+.btn-explore {
+    padding: 16px 30px;
+}
+
+.play-circle {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: var(--color-primary-light);
+}
+
+/* ===== Stats ===== */
+.hero-stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 44px;
+    padding-top: 28px;
+    border-top: 1px solid var(--color-border);
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.stat-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.stat-label {
+    font-size: 14px;
+}
